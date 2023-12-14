@@ -68,6 +68,11 @@ set (TESTBED_SOURCE_FILES
 	tests/web.cpp
 	tests/wheel_joint.cpp
 	tests/wrecking_ball.cpp
+	msgChannel/MessageChannel.cpp
+	msgChannel/MessageQueue.cpp
+	msgChannel/os_fs.cpp
+	msgChannel/os_shm.cpp
+	netChannel/netLinkMng.cpp
 )
 
 add_executable(testbed ${TESTBED_SOURCE_FILES})
